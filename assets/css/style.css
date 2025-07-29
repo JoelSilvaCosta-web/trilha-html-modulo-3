@@ -36,3 +36,16 @@ a { color:blue; text-decoration: none;}
 figure {
     text-align: center;
 }
+@media (max-width: 768px) {
+    .content {
+        display: block;
+    }
+    .sidebar, 
+    .anchors {
+        border: none;
+        padding: 10px 0;
+    }
+}
+main {
+    padding: 1rem;
+}
